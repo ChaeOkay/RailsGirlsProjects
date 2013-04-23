@@ -1,0 +1,17 @@
+# Data Munging
+
+Adapted from [CodeKata](http://codekata.pragprog.com/2007/01/kata_four_data_.html).
+
+Last month, James showed us how to parse CSV. Here's a chance to practice, and to try something more like a real-world programming problem. You'll want to check out the [CSV class in Ruby's standard library](http://ruby-doc.org/stdlib-1.9.2/libdoc/csv/rdoc/CSV.html) to help you.
+
+## Part One: Weather Data
+
+In `weather.csv` you’ll find daily weather data for Morristown, NJ for June 2002. Download this file, then write a program to output the day number with the smallest temperature spread. The day number is in a column labeled `Dy`, the max temperature is `MxT` and the min temperature is `MnT`.
+
+## Part Two: Soccer League Table
+
+The file `football.csv` contains the results from the English Premier League for 2001/2. The columns labeled `F` and `A` contain the total number of goals scored for and against each team in that season (so Arsenal scored 79 goals against opponents, and had 36 goals scored against them). Write a program to print the name of the team with the smallest difference in ‘for’ and ‘against’ goals.
+
+## Part Three: DRY Fusion
+
+Take the two programs written previously and factor out as much common code as possible, leaving you with two smaller programs and some kind of shared functionality.
