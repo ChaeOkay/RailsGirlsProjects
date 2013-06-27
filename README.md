@@ -2,6 +2,9 @@
 
 http://www.meetup.com/Rails-Girls-Atlanta/
 
+- May 2013
+Ruby Task List with Rspec
+
 - April 2013    
 CSV Parsing Pt.1
 
